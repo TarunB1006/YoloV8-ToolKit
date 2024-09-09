@@ -16,3 +16,5 @@ These are some other scripts used to ease the process of training and developmen
 6. `data.yaml`: This config file is used to specify parameters like the number of classes and the location of the dataset and will be required for training with YOLOv8. Refer to the [Documentation](https://docs.ultralytics.com/modes/train/) for more details.
 
 7. `training.ipynb`: This notebook has steps to train a model, with a few hyperparameters to start with. However, refer to the [Documentation](https://docs.ultralytics.com/modes/train/) to achieve the best results by changing these parameters according to your dataset size, quality, etc.
+
+8. `capture_coordinates.py`: This Python script allows you to manually capture coordinates from an image using mouse clicks and display them on the image. It's useful for defining regions of interest (ROIs) in an image by capturing sets of four points, typically to create rectangular regions.
